@@ -19,5 +19,5 @@ jobs:
         run: |
           git config --global credential.helper store
           echo "https://USER:$HF_TOKEN@huggingface.co" > ~/.git-credentials
-          git remote add hf https://huggingface.co/spaces/Ayush9631/DataMining
+          git remote add hf https://huggingface.co/spaces/Ayush9631/DM
           git push hf main --force
